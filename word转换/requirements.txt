@@ -1,0 +1,8 @@
+# Word 转 Markdown 工具依赖
+# 安装方式: pip install -r requirements.txt
+
+# 推荐: 纯 Python，安装简单，转换质量好
+mammoth>=1.6.0
+
+# 基础版: 手动解析 docx（当 mammoth 不可用时的降级方案）
+python-docx>=1.0.0
